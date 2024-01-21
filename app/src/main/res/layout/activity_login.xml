@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainactivitybackground"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/LoginTextPassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_layout"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:paddingStart="20dp"
+        android:textColor="#000000"
+        android:textColorHint="#99000000"
+        app:guidelineUseRtl="false"
+        app:layout_constraintEnd_toEndOf="@+id/LoginTextEmailAddress"
+        app:layout_constraintStart_toStartOf="@+id/LoginTextEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/LoginTextEmailAddress"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/LoginTextEmailAddress"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="304dp"
+        android:background="@drawable/button_layout"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:textColor="#000000"
+        android:textColorHint="#99000000"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/ShortSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        app:layout_constraintStart_toStartOf="@+id/LoginTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/LoginTextPassword" />
+
+    <TextView
+        android:id="@+id/ShortForget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="forget password?"
+        app:layout_constraintEnd_toEndOf="@+id/LoginTextPassword"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/ShortSignup"
+        app:layout_constraintTop_toBottomOf="@+id/LoginTextPassword" />
+
+    <Button
+        android:id="@+id/LoginButton"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/AuthButton"
+        android:text="Log in"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/LoginTextPassword"
+        app:layout_constraintStart_toStartOf="@+id/LoginTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/LoginTextPassword" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

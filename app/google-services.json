@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "876688861550",
+    "project_id": "facify-793cd",
+    "storage_bucket": "facify-793cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876688861550:android:97310c7c015e66ab1b397f",
+        "android_client_info": {
+          "package_name": "com.example.facify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876688861550-n8dbjfhsnhv1h6jkjv933e1nap5sej96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcrHlv67qbwCola82XX-elMBbKTKdHfO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876688861550-n8dbjfhsnhv1h6jkjv933e1nap5sej96.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
